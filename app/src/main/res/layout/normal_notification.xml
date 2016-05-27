@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:textSize="25dp" />
+    .
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorials Point"
+        android:layout_gravity="center"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:textColor="#ff16ff01" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:paddingTop="20dp"
+        android:hint="Name"
+        android:ems="10"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="Subject"
+        android:ems="10"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editText3"
+        android:hint="Body"
+        android:ems="10"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:id="@+id/button"
+        android:layout_marginTop="47dp"
+        android:layout_gravity="center" />
+
+
+
+</LinearLayout>
